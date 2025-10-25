@@ -11,12 +11,8 @@ fn main(){
         .read_line(&mut guess)
         .expect("Failed to read line");
 
-    let mut new_number = String::new();
-
-    println!("Add another number");
-
-    io::stdin().read_line(&mut new_number).expect("Failed to read line");
 
 
-    println!("You guessed: {guess} + {new_number}");
+
+    println!("You guessed: {guess} number");
 }
